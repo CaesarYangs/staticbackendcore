@@ -33,7 +33,7 @@ func init() {
 var mx *sync.RWMutex = &sync.RWMutex{}
 
 type Memory struct {
-	DB              map[string]map[string][]byte
+	DB              map[string]map[string][]byte // table-row-value
 	PublishDocument cache.PublishDocumentEvent
 }
 

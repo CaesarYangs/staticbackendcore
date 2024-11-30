@@ -13,7 +13,10 @@ build:
 	-o staticbackend
 	@cd plugins/topdf && CGO_ENABLE=0 go build -buildmode=plugin -o ../topdf.so
 
-start: build
+# start: build
+# 	@./cmd/staticbackend
+
+start: 
 	@./cmd/staticbackend
 
 alltest:

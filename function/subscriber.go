@@ -31,6 +31,8 @@ func (sub *Subscriber) Start() {
 	for {
 		select {
 		case msg := <-receiver:
+			//# debug here
+			sub.Log.Info().Msg("received msg now, ready to process by subprocess")
 			// only handle function execution on the primary instance
 			// otherwise it would cause duplication work.
 			if sub.IsPrimaryInstance {
