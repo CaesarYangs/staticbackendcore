@@ -70,6 +70,36 @@
                 <mxCell id="19" value="Event Trigger" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
                     <mxGeometry x="1255" y="680" width="80" height="180" as="geometry"/>
                 </mxCell>
+                <mxCell id="25" value="SBSYS" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="475" y="1210" width="850" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="26" value="new subscriber" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="475" y="1270" width="75" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="27" value="" style="shape=flexArrow;endArrow=classic;html=1;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="270" y="1234.5" as="sourcePoint"/>
+                        <mxPoint x="440" y="1234.5" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="28" value="222" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="475" y="1540" width="850" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="29" value="333" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="475" y="1600" width="850" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="30" value="" style="shape=flexArrow;endArrow=classic;html=1;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="280" y="1564.5" as="sourcePoint"/>
+                        <mxPoint x="450" y="1564.5" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="31" value="" style="shape=flexArrow;endArrow=classic;html=1;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="280" y="1624.5" as="sourcePoint"/>
+                        <mxPoint x="450" y="1624.5" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
             </root>
         </mxGraphModel>
     </diagram>
